@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Child registration laws</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+  <div class="container">
+      <div>
+        <h3>LOST CHILD REGISTRATION</h3>
+        <form id="contactForm">
+          <p>
+            <label>NAME</label>
+            <input class="form-control" type="text" name="name" id="name" required placeholder="Enter the name">
+          </p>
+          <p>
+            <label>AGE AT THE TIME OF MISSING</label>
+            <input class="form-control" type="text" name="age" id="age" required placeholder="Enter age">
+          </p>
+           <p>
+            <label>DATE OF MISSING</label>
+            <input class="form-control" type="date" name="date" id="date" required placeholder="Enter the date of missing">
+          </p>
+         
+
+          <p>
+            <label>DATE OF BIRTH</label>
+            <input class="form-control" type="datetime" name="dob" id="dob" required placeholder="Enter the Date of Birth">
+          </p>
+          <p>
+            <label>GENDER</label>
+            <select class="form-control" id="gender" required>
+                   <option>Male</option>
+                   <option>Female</option>
+                   <option>Other</option>
+            </select>          
+          </p>
+          
+          <div>
+    <label for="exampleInputFile">PHOTO</label>
+    <input type="file" class="form-control-file" id="File" aria-describedby="fileHelp" id="photo" >
+  </div><br>
+  
+  <div>
+    <label for="pg">NAME OF PARENTS/GUARDIANS</label>
+    <input type="pg" class="form-control" id="pg" aria-describedby="pg" placeholder="Enter name">
+  </div>
+  <div class="form-group">
+    <label for="youtube">DATE OF ENTRY</label>
+    <input type="entry" class="form-control" id="entry" aria-describedby="entry" placeholder="Enter date of entry">
+  </div>
+         <div>
+    <label for="youtube">DESCRIPTION</label>
+    <input type="entry" class="form-control" id="description" aria-describedby="entry" placeholder="Enter description">
+  </div>
+  
+ <br>
+           <p class="full">
+            <button class="btn btn-primary" onclick="window.location.reload();" type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
